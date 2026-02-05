@@ -1,4 +1,6 @@
 import random
+from tkinter import *
+from tkinter import ttk
 
 #main 
 def main(): 
@@ -8,6 +10,8 @@ def main():
 
     geld = int(0);
     #int(geldeinzahlen);
+
+    fenster();
 
     print("SLOTMACHINE")
 
@@ -28,6 +32,10 @@ def einzahlen(geld):
 
 def freiGamblen():
     geld = geld + 150000;
+
+def fenster():
+    root = Tk();
+    root.mainloop();
 
 
 #main ausgabe
